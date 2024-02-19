@@ -4,7 +4,6 @@ import 'package:http/http.dart' as http;
 import 'package:shaibunna/models/consumer_model.dart';
 
 import 'dart:convert';
-
 class ConsumerController extends GetxController {
    var isLoading = false.obs;
   ConsumerResponse? consumerResponse;
